@@ -149,7 +149,7 @@ def roi_mate(i):
 def draw_test():  # 绘图测试用于调试
     # mate_Setting()
     # Match_Constant()
-    global click_point
+    global click_points
     print("-------------------------roi_mate.draw_test------------------------")
     get_screenshot()
     img1 = cv2.imread("./screenshot.png")
