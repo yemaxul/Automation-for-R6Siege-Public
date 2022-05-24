@@ -2,7 +2,7 @@
 
 ```
 Automation for R6Siege Public
-├─ cv2.pyd  #在vscode中运行OpenCV时必要的二进制文件
+├─ cv2.pyd  #在vscode中运行OpenCV时必要的伪编译二进制文件
 ├─ main.py  #脚本运行文件
 ├─ matchedpng  #保存需要进行图像匹配的文件
 │  ├─ confirm.png
