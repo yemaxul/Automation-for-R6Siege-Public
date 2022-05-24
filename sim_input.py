@@ -12,7 +12,7 @@ def sim_click(click_point: list, i):    #根据返回的坐标，随机生成新
     print("-------------------------sim_input.sim_click------------------------")
     rclick_point = (int(click_point[0])+random.randint(-10, 10),
                     int(click_point[0])+random.randint(-10, 10))
-    mouse.move(rclick_point[0], rclick_point[1])
+    mouse.position=(rclick_point[0], rclick_point[1])
     time.sleep(0.2)
     mouse.click(Button.left)
     time.sleep(0.2)
